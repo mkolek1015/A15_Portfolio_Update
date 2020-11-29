@@ -9,7 +9,7 @@ Now that you've had some practice with APIs and have a project to share, you'll 
 
 * Submit an updated portfolio featuring project 1 and two exemplary homework assignments.
 
--- https://mkolek1015.github.io/A8_Portfolio_rev/A8_Responsive%20Portfolio.html 
+-- https://mkolek1015.github.io/A15_Portfolio_Update/index.html 
 
 * Submit an updated GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
 
@@ -17,11 +17,9 @@ Now that you've had some practice with APIs and have a project to share, you'll 
 
 * Submit an updated resume
 
---  https://mkolek1015.github.io/A8_Portfolio_rev/A8_RP_About%20me.html
+--  https://mkolek1015.github.io/A15_Portfolio_Update/About%20me.html
 
 * Submit an updated LinkedIn profile
 
---  https://www.linkedin.com/in/mike-kolek-6159ab7/ # A16_portfolio_rev2
-# A16_portfolio_rev2
-# A16_Portfolio_Update
-# A16_Portfolio_Update
+--  https://www.linkedin.com/in/mike-kolek-6159ab7/ # A15_portfolio_rev2
+
