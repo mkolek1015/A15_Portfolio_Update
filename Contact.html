@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en-us">
+​
+<head>
+​
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+​
+  <title>Michael Kolek Contact</title>
+​
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src='./script.js'></script>
+</head>
+​
+<body>
+  <!-- Start Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <span class="navbar-brand mb-1 h1"></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./About me.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Nav -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="page-header">
+          <h1></h1>
+        </div>
+        <style>
+          body {font-family: Arial, Helvetica, sans-serif;}
+          * {box-sizing: border-box;}
+          
+          input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+          input[type=submit] {
+            background-color: #09005a;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #1400cc;
+          }
+          
+          .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+          </style>
+          </head>
+          <body>
+          
+          <h3>Contact Form</h3>
+          
+          <div class="container">
+            <div>
+        
+              <!--Add few elements to the form-->
+      
+              <div>
+                  <input type="text" id="txtName" placeholder="Enter your name" />
+              </div>
+              <div>
+                  <input type="text" id="txtEmail" placeholder="Enter your email address" />
+              </div>
+              <div>
+                  <select id="selCountry">
+                      <option selected value="">-- Choose the country --</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Ireland">Ireland</option>
+                      <option value="USA">USA</option>
+                  </select>
+              </div>
+              <div>
+                  <textarea id="msg" name="msg" placeholder="Write some message ..." style="height:100px"></textarea>
+              </div>
+              <div>
+                  <input type="button" id="bt" value="Save data to file" onclick="saveFile()" />
+              </div>
+      
+          </div>
+          </div>
+​
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+​
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+​
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+​
+</html>
